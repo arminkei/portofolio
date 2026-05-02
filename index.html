@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Portofolio UI/UX & Data Analyst</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hiii, Saya Dimas Andrenawan</h1>
+                <h1 class="hero-title">UI/UX Designer & Data Analyst</h1>
+                <p class="hero-subtitle">Menciptakan pengalaman pengguna yang indah dan insight data yang mendalam</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Lihat Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Lulusan D3 Rekam Medis dan Informasi Kesehatan Universitas Jenderal Achmad Yani Yogyakarta. Memiliki pengalaman praktik di 5 instansi kesehatan berbeda dengan spesialisasi pada kodifikasi klinis (ICD-10 & ICD-9-CM), dan manajemen Rekam Medis Elektronik (RME).</p>
+                    <p>Memiliki keahlian tambahan dalam analisis data menggunakan PostgreSQL dan Looker Studio, serta pemahaman mendalam terhadap alur SIMRS/SIMPUS yang dibuktikan melalui berbagai prestasi UI/UX tingkat nasional. Berkomitmen penuh pada akurasi data, efisiensi operasional, dan kerahasiaan informasi medis.</p>
+                </div>
+                <div class="support-system">
+                    <h3>Support System</h3>
+                    <img src="assets/images/Support.png" alt="Support System">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio Saya</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- UI/UX Projects -->
+                <div class="portfolio-item" data-category="uiux">
+                    <div class="portfolio-card">
+                        <img src="assets/images/Figma1/Dashboard.png" alt="SIMRS Design">
+                        <div class="portfolio-overlay">
+                            <h3>SIMRS Design</h3>
+                            <p>UI/UX Design untuk Sistem Manajemen Rumah Sakit</p>
+                            <a href="projects/uiux-project-1.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Dashboard Projects -->
+                <div class="portfolio-item" data-category="dashboard">
+                    <div class="portfolio-card">
+                        <img src="assets/images/DashboardPizza.png" alt="Pizza Sales Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Pizza Sales Dashboard</h3>
+                            <p>Dashboard performa penjualan pizza sepanjang tahun</p>
+                            <a href="projects/dashboard-project-1.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="dashboard">
+                    <div class="portfolio-card">
+                        <img src="assets/images/DashboardFarmasi.png" alt="Farmasi Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Farmasi Overview Dashboard</h3>
+                            <p>Dashboard performa jaringan farmasi secara menyeluruh</p>
+                            <a href="projects/dashboard-project-2.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="dashboard">
+                    <div class="portfolio-card">
+                        <img src="assets/images/DashboardRestoran.png" alt="Restoran Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Restoran Franchise Dashboard</h3>
+                            <p>Evaluasi performa merchant dalam satu jaringan franchise</p>
+                            <a href="projects/dashboard-project-3.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="dashboard">
+                    <div class="portfolio-card">
+                        <img src="assets/images/DashboardValorant.png" alt="Valorant Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Valorant VCT Paris 2025</h3>
+                            <p>Dashboard analytics performa turnamen e-sports VCT</p>
+                            <a href="projects/dashboard-project-4.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="dashboard">
+                    <div class="portfolio-card">
+                        <img src="assets/images/DashboardRobotics.png" alt="Robotics Dashboard">
+                        <div class="portfolio-overlay">
+                            <h3>Robotics Sales Report</h3>
+                            <p>Dashboard analisis penjualan robotika dan edukasi teknologi</p>
+                            <a href="projects/dashboard-project-5.html" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info" center>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>dimasandrenawan@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Lokasi</h3>
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>UI/UX Designer & Data Analyst</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigasi</h3>
+                    <ul>
+                        <li><a href="#hero">Beranda</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Ikuti Saya</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/dimas-andrenawan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indipta_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Portofolio Dimas Andrenawan</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
